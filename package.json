@@ -1,0 +1,27 @@
+{
+  "name": "naive-subset-sum",
+  "version": "1.0.0",
+  "description": "naive solver for the subset sum problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuscofrancesco/naive-subset-sum.git"
+  },
+  "keywords": [
+    "naive",
+    "subset",
+    "sum",
+    "np-complete",
+    "np",
+    "problem"
+  ],
+  "author": "ffusco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuscofrancesco/naive-subset-sum/issues"
+  },
+  "homepage": "https://github.com/fuscofrancesco/naive-subset-sum#readme"
+}
