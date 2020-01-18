@@ -11,7 +11,14 @@ The solution is based on the following steps:
 
 ### Option 1: online
 
-Using runkit. Simply click [here](https://runkit.com/embed/hqqivkf4o6qh)!
+Using runkit. Simply click [here](https://npm.runkit.com/naive-subset-sum) and copy/paste this code:
+```javascript
+const naiveSubsetSum = require("naive-subset-sum");
+
+const input = [1,-3,2,11];
+
+console.log(naiveSubsetSum.subsetSum(input));
+```
 
 ### Option 2: use npm
 
@@ -23,7 +30,7 @@ npm install naive-subset-sum
 ```
 2. Run the below command:
 ```sh
-npm start
+node node_modules/naive-subset-sum/index.js
 > .ssum 1,2,-7,2,3
 { res: true, subset: [ 3, 2, -7, 2 ] }
 ```

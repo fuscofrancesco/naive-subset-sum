@@ -1,11 +1,10 @@
 {
   "name": "naive-subset-sum",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "naive solver for the subset sum problem",
   "main": "NaiveSubsetSum.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node_modules/naive-subset-sum/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
