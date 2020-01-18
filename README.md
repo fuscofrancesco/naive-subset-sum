@@ -9,28 +9,32 @@ The solution is based on the following steps:
 
 ## Usage
 
-You will need [node JS](https://nodejs.org/en/) installed.
+### Option 1: online
 
-### Option 1: clone this repo
-
-You can clone this repo adn start by simply running:
-```sh
-node .
-> .ssum 1,2,-7,2,3
-{ res: true, subset: [ 3, 2, -7, 2 ] }
-```
+Using runkit. Simply click [here](https://runkit.com/embed/hqqivkf4o6qh)!
 
 ### Option 2: use npm
+
+You will need [node JS](https://nodejs.org/en/) installed.
 
 1. Install the library:
 ```sh
 npm install naive-subset-sum
 ```
-2. Create a file named index.js containing the below line:
-```javascript
-const ss = require('naive-subset-sum');
-```
-3. Simply run:
+2. Run the below command:
 ```sh
-node .
+npm start
+> .ssum 1,2,-7,2,3
+{ res: true, subset: [ 3, 2, -7, 2 ] }
+```
+
+### Option 3: clone this repo
+
+You will need [node JS](https://nodejs.org/en/) installed.
+
+You can clone this repo and start by simply running:
+```sh
+node index.js
+> .ssum 1,2,-7,2,3
+{ res: true, subset: [ 3, 2, -7, 2 ] }
 ```
